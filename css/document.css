@@ -1,0 +1,114 @@
+*, *::before, *::after{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+    color: #424242;
+}
+
+header{
+    color:#263238;
+    padding: 6rem 0;
+}
+header h1{ 
+    font-size: 6rem; 
+    font-weight: lighter; 
+    text-align: center;
+}
+header p{
+    padding-top: 1rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+}
+
+body{
+    margin: 4rem;
+}
+
+h2{
+    font-weight: 600;
+    padding: 2rem 0 4rem 0;
+}
+[class^=part-]{
+    margin-top: 4rem;
+}
+h1{
+    font-size: 3rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.menu-list{
+    margin-top: 2rem;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.menu-list li{
+    padding-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.menu-list li a:link{
+    text-decoration: none;
+}
+
+.code-intro{
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    
+}
+.code-intro h2{
+    padding: 2rem 0 1rem 0;
+    font-weight: 500;
+}
+.code-intro ul{
+    color: #263238;
+    padding-left: 2rem;
+}
+.code-intro li{
+    padding: 0.4rem 0;
+}
+.code-intro span{
+    padding: 0.1rem 0.3rem;
+    background-color: #FFCCBC;
+}
+.code-wrapper{
+    border: 1px solid #FF6E40;
+    border-radius: 3px;
+    position: relative;
+
+}
+.code-wrapper::before{
+    font-size: 600;
+    content: 'example';
+    position: absolute;
+    padding: 0.2rem 0.5rem;
+    top: -1.7rem;
+    left: 0;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #FF6E40;
+    /*#f5ba0a;*/
+    background: #FF6E40;
+    /*#f5ba0a;*/
+}
+.code-example{
+    margin-top: 2rem;
+}
+.code-active{
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+div.code-block{
+    margin: 2rem 0 0 0;
+}
+
+
